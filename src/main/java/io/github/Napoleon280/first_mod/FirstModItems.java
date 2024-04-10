@@ -16,11 +16,11 @@ public class FirstModItems implements ModInitializer {
 
 	public static void register(ModContainer mod) {
 		Registry.register(Registries.ITEM, new Identifier(mod.metadata().id(), "example_item"), EXAMPLE_ITEM);
+		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register( entries -> {entries.addItem(EXAMPLE_ITEM);});
 	}
-
 
 	public void onInitialize(ModContainer mod){
 		FirstModItems.register(mod);
-		ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register( entries -> {entries.addItem(EXAMPLE_ITEM);});
+
 	}
 }
