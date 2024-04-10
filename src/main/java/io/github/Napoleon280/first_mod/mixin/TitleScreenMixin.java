@@ -1,6 +1,6 @@
-package com.example.example_mod.mixin;
+package io.github.Napoleon280.first_mod.mixin;
 
-import com.example.example_mod.FirstMod;
+import io.github.Napoleon280.first_mod.FirstMod;
 import net.minecraft.client.gui.screen.TitleScreen;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;

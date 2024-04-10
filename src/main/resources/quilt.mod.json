@@ -5,10 +5,10 @@
 		"id": "first_mod",
 		"version": "${version}",
 		"metadata": {
-			"name": "Mod Name",
-			"description": "A short description of your mod.",
+			"name": "First Mod",
+			"description": "A short description of you.",
 			"contributors": {
-				"Your name here": "Owner"
+				"Popo" : "Owner"
 			},
 			"contact": {
 				"homepage": "https://example.com/",
@@ -19,7 +19,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.first_mod.FirstMod"
+			"init": "io.github.Napoleon280.first_mod.FirstMod"
 		},
 		"depends": [
 			{
@@ -36,5 +36,5 @@
 			}
 		]
 	},
-	"mixin": "example_mod.mixins.json"
+	"mixin": "first_mod.mixins.json"
 }
