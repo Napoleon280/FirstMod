@@ -2,7 +2,7 @@
 	"schema_version": 1,
 	"quilt_loader": {
 		"group": "${group}",
-		"id": "example_mod",
+		"id": "first_mod",
 		"version": "${version}",
 		"metadata": {
 			"name": "Mod Name",
@@ -19,7 +19,7 @@
 		},
 		"intermediate_mappings": "net.fabricmc:intermediary",
 		"entrypoints": {
-			"init": "com.example.example_mod.ExampleMod"
+			"init": "com.example.first_mod.FirstMod"
 		},
 		"depends": [
 			{
